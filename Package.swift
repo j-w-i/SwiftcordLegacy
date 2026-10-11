@@ -13,8 +13,8 @@ let package = Package(
         ),
     ],
     dependencies: [
-        .package(url: "https://github.com/JWIMaster/FoundationCompatKit.git", branch: "master"),
-        .package(url: "https://github.com/JWIMaster/NSJSONSerialization-for-Swift", branch: "master"),
+        .package(url: "https://github.com/j-w-i/FoundationCompatKit.git", branch: "master"),
+        .package(url: "https://github.com/j-w-i/NSJSONSerialization-for-Swift", branch: "master"),
     ],
     targets: [
         .target(
